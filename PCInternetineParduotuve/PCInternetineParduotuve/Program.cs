@@ -289,8 +289,8 @@ productsGroup.MapPut("products/{productId}", async (int shopId, int categoryId, 
  
  if (!httpContext.User.IsInRole(ForumRoles.Admin) && httpContext.User.FindFirstValue(JwtRegisteredClaimNames.Sub) != product.UserId)
     {
-        // result not found()   
-        return Results.Forbid();
+        // NotFound()
+        return Results.Forbid();   // .Forbd() Forbidden error.
     }
 
  

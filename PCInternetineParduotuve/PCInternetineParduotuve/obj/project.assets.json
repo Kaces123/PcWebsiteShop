@@ -2679,11 +2679,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karol\\Downloads\\PC_s-part-web-shop\\PCInternetineParduotuve\\PCInternetineParduotuve\\PCInternetineParduotuve.csproj",
+      "projectUniqueName": "E:\\Universiteto_studijos\\Githubas\\PcWebsiteShop\\PCInternetineParduotuve\\PCInternetineParduotuve\\PCInternetineParduotuve.csproj",
       "projectName": "PCInternetineParduotuve",
-      "projectPath": "C:\\Users\\karol\\Downloads\\PC_s-part-web-shop\\PCInternetineParduotuve\\PCInternetineParduotuve\\PCInternetineParduotuve.csproj",
+      "projectPath": "E:\\Universiteto_studijos\\Githubas\\PcWebsiteShop\\PCInternetineParduotuve\\PCInternetineParduotuve\\PCInternetineParduotuve.csproj",
       "packagesPath": "C:\\Users\\karol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karol\\Downloads\\PC_s-part-web-shop\\PCInternetineParduotuve\\PCInternetineParduotuve\\obj\\",
+      "outputPath": "E:\\Universiteto_studijos\\Githubas\\PcWebsiteShop\\PCInternetineParduotuve\\PCInternetineParduotuve\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

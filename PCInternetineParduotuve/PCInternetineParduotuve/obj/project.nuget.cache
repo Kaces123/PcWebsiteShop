@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YgUoQJg/yHRRY+eZNsF5ZNqHgMAA6xI8+1tzuWQZZFXsFNJoTMsw2kknV7sp5sIw807iEXHRfDZqIN8emvYP4Q==",
+  "dgSpecHash": "GOAQN8G5qpNUc7wHQiyLFGSgFmBugKNW6t6cLSuP0rKRrrJEhwXCB99QZ5I61AIfRS80Ayy2OM75BndCcO9ELg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\karol\\Downloads\\PC_s-part-web-shop\\PCInternetineParduotuve\\PCInternetineParduotuve\\PCInternetineParduotuve.csproj",
+  "projectFilePath": "E:\\Universiteto_studijos\\Githubas\\PcWebsiteShop\\PCInternetineParduotuve\\PCInternetineParduotuve\\PCInternetineParduotuve.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karol\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
