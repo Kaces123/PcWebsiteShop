@@ -1,1 +1,0 @@
-web: dotnet PCInternetineParduotuve.dll
