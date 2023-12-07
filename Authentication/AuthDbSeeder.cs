@@ -44,7 +44,6 @@ namespace PCInternetineParduotuve.Authentication
                 var createAdminUserResult = await _userManager.CreateAsync(newAdminUser, "VerySafePassword1!");
                 if (createAdminUserResult.Succeeded)
                 {
-                    // Ensure that roles exist before adding the user to them
                     foreach (var role in ForumRoles.All)
                     {
                         var roleExists = await _roleManager.RoleExistsAsync(role);
@@ -53,9 +52,14 @@ namespace PCInternetineParduotuve.Authentication
                             await _roleManager.CreateAsync(new IdentityRole(role));
                         }
                     }
+                    Console.WriteLine($"Roles Exist: {string.Join(", ", ForumRoles.All)}");
 
-                    // Now, add the user to roles
-                    await _userManager.AddToRolesAsync(newAdminUser, ForumRoles.All);
+
+
+                    await _userManager.AddToRoleAsync(newAdminUser, ForumRoles.Admin);
+                    var adminRoles = await _userManager.GetRolesAsync(newAdminUser);
+                    Console.WriteLine($"Admin Roles: {string.Join(", ", adminRoles)}");
+
                 }
                 else
                 {
@@ -67,6 +71,7 @@ namespace PCInternetineParduotuve.Authentication
                 }
             }
         }
+
 
     }
 }

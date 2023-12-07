@@ -72,6 +72,7 @@ namespace PCInternetineParduotuve.Authentication
 
 
                 var roles = await userManager.GetRolesAsync(user);
+                Console.WriteLine($"User Roles: {string.Join(", ", roles)}");
 
                 var accessToken = jwtTokenService.CreateAccessToken(user.UserName, user.Id, roles);
                 var refreshToken = jwtTokenService.CreateRefreshToken(user.Id);
