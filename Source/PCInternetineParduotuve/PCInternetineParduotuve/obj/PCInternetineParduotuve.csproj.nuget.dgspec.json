@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Universiteto_studijos\\Githubas\\PcWebsiteShop\\PCInternetineParduotuve\\PCInternetineParduotuve\\PCInternetineParduotuve.csproj": {}
+    "E:\\Universiteto_studijos\\Githubas\\PcWebsiteShop\\Source\\PCInternetineParduotuve\\PCInternetineParduotuve\\PCInternetineParduotuve.csproj": {}
   },
   "projects": {
-    "E:\\Universiteto_studijos\\Githubas\\PcWebsiteShop\\PCInternetineParduotuve\\PCInternetineParduotuve\\PCInternetineParduotuve.csproj": {
+    "E:\\Universiteto_studijos\\Githubas\\PcWebsiteShop\\Source\\PCInternetineParduotuve\\PCInternetineParduotuve\\PCInternetineParduotuve.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Universiteto_studijos\\Githubas\\PcWebsiteShop\\PCInternetineParduotuve\\PCInternetineParduotuve\\PCInternetineParduotuve.csproj",
+        "projectUniqueName": "E:\\Universiteto_studijos\\Githubas\\PcWebsiteShop\\Source\\PCInternetineParduotuve\\PCInternetineParduotuve\\PCInternetineParduotuve.csproj",
         "projectName": "PCInternetineParduotuve",
-        "projectPath": "E:\\Universiteto_studijos\\Githubas\\PcWebsiteShop\\PCInternetineParduotuve\\PCInternetineParduotuve\\PCInternetineParduotuve.csproj",
+        "projectPath": "E:\\Universiteto_studijos\\Githubas\\PcWebsiteShop\\Source\\PCInternetineParduotuve\\PCInternetineParduotuve\\PCInternetineParduotuve.csproj",
         "packagesPath": "C:\\Users\\karol\\.nuget\\packages\\",
-        "outputPath": "E:\\Universiteto_studijos\\Githubas\\PcWebsiteShop\\PCInternetineParduotuve\\PCInternetineParduotuve\\obj\\",
+        "outputPath": "E:\\Universiteto_studijos\\Githubas\\PcWebsiteShop\\Source\\PCInternetineParduotuve\\PCInternetineParduotuve\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
