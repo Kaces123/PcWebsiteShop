@@ -25,4 +25,3 @@ ENV \
 RUN apk add --no-cache \
     icu-data-full \
     icu-libs
-    
